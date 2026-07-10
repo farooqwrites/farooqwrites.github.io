@@ -45,3 +45,55 @@ nav a{
 nav a:hover{
     color:white;
 }
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero-image{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    border:5px solid gold;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:42px;
+    color:gold;
+    margin:10px 0;
+}
+
+.hero h2{
+    color:white;
+    margin-bottom:10px;
+}
+
+.urdu{
+    color:#ddd;
+    font-size:22px;
+}
+
+.quote{
+    font-style:italic;
+    color:#bbb;
+    margin:20px auto;
+    max-width:700px;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:gold;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:white;
+    }
