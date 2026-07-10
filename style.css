@@ -187,3 +187,52 @@ nav{
 .about-card strong{
     color:gold;
 }
+/* ===== FEATURED WORKS ===== */
+
+.books{
+    max-width:1000px;
+    margin:80px auto;
+    padding:20px;
+}
+
+.books h2{
+    text-align:center;
+    color:gold;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.book-card,
+.stories-card{
+    background:#1b1b1b;
+    border:2px solid gold;
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow:0 0 20px rgba(255,215,0,.20);
+    transition:.3s;
+}
+
+.book-card:hover,
+.stories-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 35px rgba(255,215,0,.40);
+}
+
+.book-card h3,
+.stories-card h3{
+    color:gold;
+    margin-bottom:15px;
+}
+
+.book-card p,
+.stories-card p,
+.stories-card li{
+    color:#ddd;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.stories-card ul{
+    padding-left:25px;
+}
