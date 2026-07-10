@@ -143,3 +143,47 @@ nav{
     width:220px;
     margin:15px auto;
 }
+/* ===== ABOUT SECTION ===== */
+
+.about{
+    max-width:1000px;
+    margin:80px auto;
+    padding:20px;
+}
+
+.about h2{
+    text-align:center;
+    color:gold;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.about-card{
+    background:#1b1b1b;
+    border:2px solid gold;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 0 25px rgba(255,215,0,.25);
+    transition:.4s;
+}
+
+.about-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 35px rgba(255,215,0,.45);
+}
+
+.about-card h3{
+    color:gold;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.about-card p{
+    font-size:18px;
+    line-height:1.9;
+    color:#ddd;
+}
+
+.about-card strong{
+    color:gold;
+}
