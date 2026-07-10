@@ -97,3 +97,49 @@ nav a:hover{
 .btn:hover{
     background:white;
     }
+
+/* Mobile Responsive */
+
+body{
+    overflow-x:hidden;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+    padding:15px;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero img,
+.hero-image{
+    width:180px;
+    height:180px;
+    max-width:100%;
+    border-radius:50%;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero h2{
+    font-size:22px;
+}
+
+.quote{
+    max-width:90%;
+    margin:auto;
+}
+
+.btn{
+    display:block;
+    width:220px;
+    margin:15px auto;
+}
