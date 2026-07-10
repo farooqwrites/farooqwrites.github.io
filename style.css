@@ -335,3 +335,48 @@ nav{
 .achievement-card strong{
     color:gold;
 }
+/* ===== JOURNEY SECTION ===== */
+
+.journey{
+    max-width:1000px;
+    margin:80px auto;
+    padding:20px;
+}
+
+.journey h2{
+    text-align:center;
+    color:gold;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.journey-card{
+    background:#1b1b1b;
+    border-left:6px solid gold;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:0 0 20px rgba(255,215,0,.20);
+    transition:.3s;
+}
+
+.journey-card:hover{
+    transform:translateX(8px);
+    box-shadow:0 0 35px rgba(255,215,0,.40);
+}
+
+.journey-card h3{
+    color:gold;
+    margin-bottom:12px;
+    font-size:26px;
+}
+
+.journey-card p{
+    color:#ddd;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.journey-card strong{
+    color:gold;
+}
