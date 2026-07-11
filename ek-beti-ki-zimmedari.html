@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="ur">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ایک بیٹی کی ذمہ داری | Farooq Writes</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="progress-bar"></div>
+
+<div class="brand-header">
+
+<h1>✒️ FAROOQ WRITES</h1>
+
+<p>Writing Stories That Touch Hearts</p>
+
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="index.html#about">About</a>
+
+<a href="index.html#books">Stories</a>
+
+<a href="index.html#poetry">Poetry</a>
+
+<a href="index.html#contact">Contact</a>
+
+</nav>
+
+<section class="book-page">
+
+<h1>ایک بیٹی کی ذمہ داری</h1>
+
+<p class="reading-time">
+📖 Estimated Reading Time: 5 Minutes
+</p>
+
+<p style="text-align:center;">
+<strong>✍️ فاروق ستار</strong>
+</p>
+
+<hr>
+
+<!-- STORY START -->
+
+<!-- STORY END -->
+
+<hr>
+
+<div class="story-navigation">
+
+<a href="agar-hum-bichar-gaye.html" class="story-btn">
+⬅ پچھلا افسانہ
+</a>
+
+<a href="index.html#books" class="story-btn">
+📚 تمام افسانے
+</a>
+
+<a href="neend.html" class="story-btn">
+اگلا افسانہ ➜
+</a>
+
+</div>
+
+</section>
+
+<script>
+
+window.onscroll = function(){
+
+let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+
+let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+let scrolled = (winScroll / height) * 100;
+
+document.getElementById("progress-bar").style.width = scrolled + "%";
+
+};
+
+</script>
+
+</body>
+
+</html>
