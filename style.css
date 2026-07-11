@@ -533,3 +533,37 @@ nav{
 .book-page blockquote{
     background:#262626;
     border
+    /* Story Animation */
+
+.book-page{
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+transform:translateY(25px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+.book-page img{
+
+display:block;
+margin:auto;
+max-width:100%;
+border-radius:12px;
+margin-bottom:30px;
+
+}
+
+.book-page hr{
+
+border:none;
+height:1px
