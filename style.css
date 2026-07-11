@@ -603,3 +603,44 @@ font-style:italic;
 letter-spacing:1px;
 
 }
+    /* Story Navigation */
+
+.story-navigation{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+margin-top:50px;
+
+flex-wrap:wrap;
+
+}
+
+.story-btn{
+
+text-decoration:none;
+
+background:#FFD700;
+
+color:#111;
+
+padding:12px 25px;
+
+border-radius:10px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.story-btn:hover{
+
+background:white;
+
+transform:translateY(-3px);
+
+}
