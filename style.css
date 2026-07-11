@@ -644,3 +644,72 @@ background:white;
 transform:translateY(-3px);
 
 }
+/* ===== FOOTER ===== */
+
+.footer{
+
+background:#111;
+
+padding:50px 20px;
+
+text-align:center;
+
+margin-top:80px;
+
+border-top:2px solid gold;
+
+}
+
+.footer h3{
+
+color:gold;
+
+font-size:28px;
+
+margin-bottom:15px;
+
+}
+
+.footer p{
+
+color:#ddd;
+
+font-size:16px;
+
+}
+
+.footer-links{
+
+margin:25px 0;
+
+}
+
+.footer-links a{
+
+color:white;
+
+text-decoration:none;
+
+margin:0 15px;
+
+transition:.3s;
+
+font-size:17px;
+
+}
+
+.footer-links a:hover{
+
+color:gold;
+
+}
+
+.copyright{
+
+margin-top:25px;
+
+font-size:14px;
+
+color:#888;
+
+}    
