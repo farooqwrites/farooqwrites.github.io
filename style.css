@@ -567,3 +567,22 @@ margin-bottom:30px;
 
 border:none;
 height:1px
+    /* Reading Progress Bar */
+
+#progress-bar{
+
+position:fixed;
+top:0;
+left:0;
+
+width:0%;
+
+height:5px;
+
+background:#FFD700;
+
+z-index:9999;
+
+transition:width .15s linear;
+
+}
