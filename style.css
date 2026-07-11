@@ -380,3 +380,52 @@ nav{
 .journey-card strong{
     color:gold;
 }
+/* ===== GALLERY SECTION ===== */
+
+.gallery{
+    max-width:1000px;
+    margin:80px auto;
+    padding:20px;
+}
+
+.gallery h2{
+    text-align:center;
+    color:gold;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.gallery .quote{
+    text-align:center;
+    color:#ddd;
+    font-style:italic;
+    margin-bottom:40px;
+    font-size:20px;
+}
+
+.gallery-card{
+    background:#1b1b1b;
+    border:2px solid gold;
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:0 0 20px rgba(255,215,0,.20);
+    transition:0.3s;
+}
+
+.gallery-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 35px rgba(255,215,0,.40);
+}
+
+.gallery-card h3{
+    color:gold;
+    margin-bottom:15px;
+    font-size:26px;
+}
+
+.gallery-card p{
+    color:#ddd;
+    font-size:18px;
+    line-height:1.8;
+}
