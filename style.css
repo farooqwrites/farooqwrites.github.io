@@ -429,3 +429,26 @@ nav{
     font-size:18px;
     line-height:1.8;
 }
+/* ===== BRAND HEADER ===== */
+
+.brand-header{
+    background:linear-gradient(135deg,#111,#1f1f1f);
+    text-align:center;
+    padding:30px 20px;
+    border-bottom:3px solid gold;
+}
+
+.brand-header h1{
+    color:gold;
+    font-size:48px;
+    margin:0;
+    letter-spacing:3px;
+    font-weight:bold;
+}
+
+.brand-header p{
+    color:#ddd;
+    font-size:20px;
+    margin-top:10px;
+    letter-spacing:2px;
+}
