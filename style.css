@@ -1179,4 +1179,24 @@ color:#ccc;
 
 font-size:18px;
 
-}   
+}  
+/* ===== SCHOOL PAGE ===== */
+
+.gallery-card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:15px;
+    border:none;
+    max-width:100%;
+    display:block;
+    margin-bottom:15px;
+}
+
+.gallery-card h2{
+    margin-top:10px;
+}
+
+.gallery-card p{
+    line-height:1.8;
+}
