@@ -1,16 +1,13 @@
 // ===============================
 // Farooq Writes Firebase
+// Final Version
 // ===============================
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js";
 
-import {
-  getFirestore
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
-import {
-  getAnalytics
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-analytics.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-analytics.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBaWAkE-RT2BROPAnxXINTgR-2SBR5r_I8",
@@ -25,11 +22,11 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Firestore Database
-const db = getFirestore(app);
-
 // Analytics
 const analytics = getAnalytics(app);
 
-// Export
-export { db };
+// Firestore
+const db = getFirestore(app);
+
+// Export for app.js
+export { app, db, analytics };
