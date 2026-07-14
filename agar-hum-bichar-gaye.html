@@ -202,10 +202,40 @@ scrolled + "%";
 <a href="index.html" class="btn">🏠 Back to Home</a>
 </div>
 
-</section>
 
- <script type="module" src="firebase.js"></script>
+<div id="comments-section" style="text-align:center;margin-top:40px;">
+
+<h2>💬 Comments</h2>
+
+<form id="comment-form">
+
+<input 
+id="comment-name" 
+type="text" 
+placeholder="Your Name"
+required>
+
+<br><br>
+
+<textarea 
+id="comment-text" 
+placeholder="Write your comment..."
+required></textarea>
+
+<br><br>
+
+<button class="btn" type="submit">
+Send Comment
+</button>
+
+</form>
+
+<div id="comments"></div>
+
+</div>
+
+
 <script type="module" src="app.js"></script>
- 
+
 </body>
 </html>
