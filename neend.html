@@ -184,7 +184,49 @@ Post Comment
 
 </div>
 
+<section id="comments">
+
+<h2 style="text-align:center;">💬 Comments</h2>
+
+<form id="comment-form" style="max-width:600px;margin:20px auto;">
+
+<input
+id="comment-name"
+type="text"
+placeholder="Your Name"
+required
+style="width:100%;padding:10px;margin-bottom:10px;">
+
+<textarea
+id="comment-text"
+placeholder="Write your comment..."
+required
+style="width:100%;padding:10px;height:120px;margin-bottom:10px;"></textarea>
+
+<button type="submit" class="btn">
+Post Comment
+</button>
+
+</form>
+
+<div id="comments" style="max-width:700px;margin:30px auto;"></div>
+
 </section>
+
+<hr>
+
+<div class="story-navigation">
+
+<a href="ek-beti-ki-zimmedari.html" class="story-btn">
+⬅ پچھلا افسانہ
+</a>
+
+<a href="index.html#books" class="story-btn">
+📚 تمام افسانے
+</a>
+
+</div>
+
 
 <script>
 
@@ -201,7 +243,9 @@ document.getElementById("progress-bar").style.width = scrolled + "%";
 };
 
 </script>
+
 <script type="module" src="app.js"></script>
+
 </body>
 
 </html>
